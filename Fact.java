@@ -1,4 +1,4 @@
-class Fact
+class Factorial
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -7,7 +7,8 @@ class Fact
   int number;
   Scanner sc=new Scanner(System.in);
   number=sc.nextInt();
-  for(i=1;i<=number;i++){    
+  for(i=1;i<=number;i++)
+  {    
       fact=fact*i;    
   }    
   System.out.println("Factorial of number+ is: "+fact);    
