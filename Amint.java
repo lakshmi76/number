@@ -1,37 +1,26 @@
-class Amint
+class Amstrong
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		
-
-        int low ,high;
-        Scanner sc=new Scanner(System.in);
-        low=sc.nextInt();
-        high=sc.nextInt();
-
-        for(int number = low + 1; number < high; ++number) {
-            int digits = 0;
-            int result = 0;
-            int originalNumber = number;
-
-            // number of digits calculation
-            while (originalNumber != 0) {
-                originalNumber /= 10;
-                ++digits;
-            }
-
-            originalNumber = number;
-
-            // result contains sum of nth power of its digits
-            while (originalNumber != 0) {
-                int remainder = originalNumber % 10;
-                result += Math.pow(remainder, digits);
-                originalNumber /= 10;
-            }
-                        if (result == number)
-                System.out.print(number + " ");
-        }
-    }
+	int num,c=0,a,temp;
+	Scanner sc=new Scanner(System.in);
+	num=sc.nextInt();
+	temp=num;
+	while(num>0)
+	{// your code goes here
+        
+         a=num%10;
+         num=num/10;
+         c=c+(a*a*a);
+}
+if(temp==c)
+{
+	System.out.println("yes");
 }
 
-// your code goes here
+else
+{
+	System.out.println("no");
+}
+}
+}
