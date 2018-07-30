@@ -9,7 +9,7 @@ import java.io.*;
 public static void main(String[] arg)
     {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter first term, common difference and n (number of terms)");
+    System.out.println("Enter n(number of terms), common difference and  firstterm");
     int a=sc.nextInt(),d=sc.nextInt(),n=sc.nextInt();
     System.out.print("Sum: "+n*(2*a+(n-1)*d)/2);
     }
