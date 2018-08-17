@@ -20,7 +20,8 @@ int K=sc.nextInt();
   			sum=sum+a[i]; 
 } 
  		System.out.println(sum); 
- 		 
+	}
+ }
 
 
 
