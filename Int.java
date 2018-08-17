@@ -29,18 +29,3 @@ int K=sc.nextInt();
 
 
 
-
-
-
-
-
- 
-
-►
-
-
- 
-
-
-© 2018 GitHub, Inc.
-Terms
