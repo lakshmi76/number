@@ -9,11 +9,9 @@ class Small
   	{  
        
         int n, min; 
-         Scanner s = new Scanner(System.in); 
-           
+         Scanner s = new Scanner(System.in);    
        n = s.nextInt(); 
-          int a[] = new int[n]; 
-         
+          int a[] = new int[n];        
 for(int i = 0; i < n; i++) 
         { 
              a[i] = s.nextInt(); 
@@ -25,7 +23,7 @@ for(int i = 0; i < n; i++)
              {                  min= a[i]; 
              } 
        } 
-         System.out.println("Minimum value:"+min); }
+         System.out.println("Minimum value:"+min); 
 } 
 
  
