@@ -23,7 +23,7 @@ for(int i = 0; i < n; i++)
              {                  min= a[i]; 
              } 
        } 
-         System.out.println("Minimum value:"+min); 
+         System.out.println(min); 
 } 
 
  
