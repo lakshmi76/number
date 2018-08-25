@@ -14,14 +14,16 @@
 boolean numeric = true; 
 try { 
             Double num = Double.parseDouble(string); 
-          } catch (NumberFormatException e) { 
+          } 
+    catch (NumberFormatException e) 
+    { 
              numeric = false; 
          } 
     
           if(numeric) 
-              System.out.println(string + " yes"); 
+              System.out.println( " yes"); 
          else 
-             System.out.println(string + " no"); 
+             System.out.println( " No"); 
       } 
   } 
 
